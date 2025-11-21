@@ -1,3 +1,5 @@
+/*
+
 // arithmetic operator
 
 
@@ -54,4 +56,36 @@ let a = 10;
 let b = 20;
 let isGreater = a > b;
 console.log(isGreater);
+
+// string assignment
+
+let text = 'string ';
+text += 'assignment';
+console.log(text);
+
+// and, or operator
+let step = false;
+let pets = step &&= 123;
+console.log(pets);
+
+let x = false;
+let y = x || 10;
+console.log(y);
+*/
+
+// nill coalescing operator
+let num;
+let num2 = num ?? 12
+console.log(num2);
+
+// speed operator
+
+let num1 = '12345';
+let num3 = '67890';
+let num4 = [...num1];
+console.log(num4);
+
+
+
+
 
